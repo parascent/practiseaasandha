@@ -74,7 +74,7 @@
                         {{ method_field('DELETE') }}
                         <button type="submit" >Delete</button>
                     </form>
-                    <button href="{{ route('normindex') }}">Edit</button>
+                    {{-- <button href="{{ route('normindex') }}">Edit</button> --}}
                     @endif
 
                     @if($task['completed'] == false)
